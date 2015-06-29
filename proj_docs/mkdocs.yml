@@ -1,1 +1,38 @@
-site_name: My Docs
+site_name: Python/Django Docs
+pages:
+- Home: index.md
+- Python I:
+    - Introduction: intro.md # editors, versions of python, python prompt, DOS?
+    - IPython: ipython.md
+    - Notebooks: notebooks.md
+    - Virtualenv: virtualenv.md
+    - Data Structures: basics.md # usual stuff, data structures.
+    - Functions: basics2.md # functions etc.
+    - Files: basics3.md # files, csv, pdf, etc.
+    - Installing Packages: pip.md
+- Python II:
+    - Objects and Classes: classes.md
+    - SQL databases: sql.md
+    - Web work: web.md
+    - Science: sci.md # numpy, data analysis, matplotlib, biopython
+    - GUI: gui.md
+    - regex: regex.md
+    - Documentation: docs.md
+- Web Frameworks:
+    - Web Dev: webdev.md
+    - Review: review.md
+    - Flask: flask.md
+    - Web2py: web2py.md
+    - Pyramid: pyramid.md
+- Django:
+    - Intro: intro_django.md # 
+    - Setting up: setting_up.md # installing and first app
+    - Models: models.md
+    - Views: views.md
+    - Forms: forms.md
+    - Admin: admin.md
+    - TDD: tdd.md
+
+    
+    
+    
