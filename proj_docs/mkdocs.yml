@@ -32,7 +32,7 @@ pages:
     - Forms: forms.md
     - Admin: admin.md
     - TDD: tdd.md
-
+theme: readthedocs
     
     
     
