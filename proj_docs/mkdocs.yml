@@ -24,6 +24,7 @@ pages:
     - Flask: flask.md
     - Web2py: web2py.md
     - Pyramid: pyramid.md
+    - Tornado: tornado.md
 - Django:
     - Intro: intro_django.md # 
     - Setting up: setting_up.md # installing and first app
