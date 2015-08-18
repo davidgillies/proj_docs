@@ -17,8 +17,9 @@ pages:
     - GUI: python/gui.md
     - regex: python/regex.md
     - Documentation: python/docs.md
+- Web Dev:
+    - Web Dev: webdev/webdev.md
 - Web Frameworks:
-    - Web Dev: webframes/webdev.md
     - Review: webframes/review.md
     - Flask: webframes/flask.md
     - Web2py: webframes/web2py.md
