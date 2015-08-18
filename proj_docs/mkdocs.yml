@@ -1,39 +1,40 @@
-site_name: Python/Django Docs
+site_name: Docs
 pages:
 - Home: index.md
-- Python I:
-    - Introduction: intro.md # editors, versions of python, python prompt, DOS?
-    - IPython: ipython.md
-    - Notebooks: notebooks.md
-    - Virtualenv: virtualenv.md
-    - Data Structures: basics.md # usual stuff, data structures.
-    - Functions: basics2.md # functions etc.
-    - Files: basics3.md # files, csv, pdf, etc.
-    - Installing Packages: pip.md
-- Python II:
-    - Objects and Classes: classes.md
-    - SQL databases: sql.md
-    - Web work: web.md
-    - Science: sci.md # numpy, data analysis, matplotlib, biopython
-    - GUI: gui.md
-    - regex: regex.md
-    - Documentation: docs.md
+- Python:
+    - Introduction: python/intro.md # editors, versions of python, python prompt, DOS?
+    - IPython: python/ipython.md # command prompt
+    - Notebooks: python/notebooks.md
+    - Virtualenv: python/virtualenv.md
+    - Data Structures: python/basics.md # usual stuff, data structures.
+    - Functions: python/basics2.md # functions etc.
+    - Files: python/basics3.md # files, csv, pdf, etc.
+    - Installing Packages: python/pip.md # using pip
+    - Objects and Classes: python/classes.md 
+    - SQL databases: python/sql.md
+    - Web work: python/web.md
+    - Science: python/sci.md # numpy, data analysis, matplotlib, biopython
+    - GUI: python/gui.md
+    - regex: python/regex.md
+    - Documentation: python/docs.md
 - Web Frameworks:
-    - Web Dev: webdev.md
-    - Review: review.md
-    - Flask: flask.md
-    - Web2py: web2py.md
-    - Pyramid: pyramid.md
-    - Tornado: tornado.md
+    - Web Dev: webframes/webdev.md
+    - Review: webframes/review.md
+    - Flask: webframes/flask.md
+    - Web2py: webframes/web2py.md
+    - Pyramid: webframes/pyramid.md
+    - Tornado: webframes/tornado.md
 - Django:
-    - Intro: intro_django.md # 
-    - Setting up: setting_up.md # installing and first app
-    - Models: models.md
-    - Views: views.md
-    - Forms: forms.md
-    - Admin: admin.md
-    - TDD: tdd.md
-theme: readthedocs
-    
-    
-    
+    - Intro: django/intro_django.md # 
+    - Setting up: django/setting_up.md # installing and first app
+    - Models: django/models.md
+    - Views: django/views.md
+    - Forms: django/forms.md
+    - Admin: django/admin.md
+    - TDD: django/tdd.md
+- Projects:
+    - XML Editor: projects/xml_editor.md
+    - Renderer: projects/renderer.md
+    - Questionnaire: projects/questionnaire.md
+    - Other: projects/other.md
+theme: mkdocs
