@@ -16,8 +16,9 @@ pages:
     - Science: python/sci.md # numpy, data analysis, matplotlib, biopython
     - GUI: python/gui.md
     - regex: python/regex.md
-    - Documentation: python/docs.md
+    - Documentation: python/docs.md # mkdocs, sphinx
     - Resources: python/resources.md
+    - Extras: python/extras.md
 - Web Dev:
     - Web Dev: webdev/webdev.md
 - Web Frameworks:
