@@ -17,6 +17,7 @@ pages:
     - GUI: python/gui.md
     - regex: python/regex.md
     - Documentation: python/docs.md
+    - Resources: python/resources.md
 - Web Dev:
     - Web Dev: webdev/webdev.md
 - Web Frameworks:
@@ -33,9 +34,11 @@ pages:
     - Forms: django/forms.md
     - Admin: django/admin.md
     - TDD: django/tdd.md
+    - Resources: django/resources.md
 - Projects:
     - XML Editor: projects/xml_editor.md
     - Renderer: projects/renderer.md
     - Questionnaire: projects/questionnaire.md
     - Other: projects/other.md
-theme: mkdocs
+theme: slate
+
