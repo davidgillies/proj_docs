@@ -8,12 +8,14 @@ pages:
     - Sequences: python/sequences.md # sequences.
     - Functions: python/basics2.md # functions etc. namespaces
     # where is modules andd namespaces.
+    - Modules: python/modules.md
+    - Objects and Classes: python/classes.md 
     - Files: python/basics3.md # files, csv, pdf, etc.
     - Installing Packages: python/pip.md # using pip
-    - Objects and Classes: python/classes.md 
+    
     - SQL databases: python/sql.md
     - Web work: python/web.md
-    - Science: python/sci.md # numpy, data analysis, matplotlib, biopython
+    - Science: python/sci.md # numpy, pandas, matplotlib, biopython
     - GUI: python/gui.md
     - regex: python/regex.md
     # pep8 and best practise
