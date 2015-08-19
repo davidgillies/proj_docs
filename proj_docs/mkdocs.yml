@@ -4,10 +4,10 @@ pages:
 - Python:
     - Introduction: python/intro.md # editors, versions of python, python prompt, DOS?
     - IPython: python/ipython.md # command prompt
-    - Notebooks: python/notebooks.md
-    - Virtualenv: python/virtualenv.md
-    - Data Structures: python/basics.md # usual stuff, data structures.
-    - Functions: python/basics2.md # functions etc.
+    - Strings and Numbers: python/basics.md # usual stuff
+    - Sequences: python/sequences.md # sequences.
+    - Functions: python/basics2.md # functions etc. namespaces
+    # where is modules andd namespaces.
     - Files: python/basics3.md # files, csv, pdf, etc.
     - Installing Packages: python/pip.md # using pip
     - Objects and Classes: python/classes.md 
@@ -16,7 +16,9 @@ pages:
     - Science: python/sci.md # numpy, data analysis, matplotlib, biopython
     - GUI: python/gui.md
     - regex: python/regex.md
+    # pep8 and best practise
     - Documentation: python/docs.md # mkdocs, sphinx
+    - Virtualenv: python/virtualenv.md
     - Resources: python/resources.md
     - Extras: python/extras.md
 - Web Dev:

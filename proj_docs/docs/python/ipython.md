@@ -38,7 +38,7 @@ you will see the new folder listed.
 We will use the prompts for python in the following sections and you will see more commands in action.
 
 ## iPython Notebooks
-If you look at your Start Menu on Windows and select 'All Programs', click on the Anaconda folder, then click on IPython (Py 2.7) Notebook.  This will start a command prompt screen, just ignore it, then it will start a tab in your browser with a folder and file listing.  The choice of this location is noted in the properties of the shortcut.  You can instead right click on the IPython (Py 2.7) Notebook shortcut in the menu and select properties, you can then change this location if you wish by editing the 'Start in' line.
+If you click on your Start Menu on Windows and select 'All Programs', click on the Anaconda folder, then click on IPython (Py 2.7) Notebook.  This will start a command prompt screen, just ignore it, then it will start a tab in your browser with a folder and file listing.  The choice of this location is noted in the properties of the shortcut.  You can instead right click on the IPython (Py 2.7) Notebook shortcut in the menu and select properties, you can then change this location if you wish by editing the 'Start in' line.
 
 Screenshot?
 
