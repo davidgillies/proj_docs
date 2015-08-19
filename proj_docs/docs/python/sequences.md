@@ -3,8 +3,9 @@
 ### Lists
 The same indexing rules for strings above apply to Python Lists.  A list is simply an ordered list of objects.  Any type of object including other lists can be added to lists, including other lists.  Lets try it
 
+
     l = [] # square brackets denote a list.
-    l = list() # is equivalent
+    l = list() # is equivalent 
 
   Lets have a fiddle...
 
@@ -49,3 +50,20 @@ Now lets have a look at equality and identity
     l1 == l3 # So this is also true.
     l1 is l2 # 'is' tells us if the objects are actually the same.
     l1 is l3 # should be false! 
+
+
+Note: you need to login with Raven to view Videos.
+
+<iframe width="640" height="360" src="//upload.sms.cam.ac.uk/media/2049841/embed" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+<!--div style="width:70%">
+ <div style="position:relative; width:100%; padding-bottom:56.25%;">
+   <iframe style="position:absolute; top:0; bottom:0; width:100%; height:100%;" src="//upload.sms.cam.ac.uk/media/2049841/embed" frameborder="0" scrolling="no" allowfullscreen></iframe>
+ </div>
+</div-->
+
+### Dictionaries
+
+### Tuples
+
+### Sets
