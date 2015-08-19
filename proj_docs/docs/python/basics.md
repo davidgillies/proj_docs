@@ -1,10 +1,10 @@
-# Data Structures
-
-For full documentation visit [https://docs.python.org/2/tutorial/datastructures.html](https://docs.python.org/2/tutorial/datastructures.html).
-
-Open up either the ipython prompt or an ipython notebook.  Either shall suffice for this.
-
 ## Basics - Strings and Numbers
+
+Open up either the ipython prompt or an ipython notebook.  Either shall suffice for this.  If you have downloaded the notebooks for the docs you can open the numbers.ipynb notebook which has all the examples.  Remember with notebooks you can type in any of the grey boxes with the In[] for input beside them and to execute the code in a box press and hold the shift key and press enter.
+
+You can also just see what the output will look like by looking at the [github page](https://github.com/davidgillies/python_notebooks/blob/master/numbers.ipynb).  Note you can't run code here! But it does show the results of the commands on the Out[] lines so you can follow along.  
+
+
 Using numbers in python is pretty straightforward but there is one particular gotcha that is generally a bit weird.  There is no need to associate a particular data type with a variable in python so can reassign variable names as you like.  Try the following
 
     x = 5
@@ -24,7 +24,7 @@ By default Python 2 will give an integer answer to any operation involving integ
     x = 9.0
     y = 6
     x/y 
-    type(x) # type returns the typ of the object.
+    type(x) # type returns the type of the object.
     type(y) #
     type(x/y)
 
@@ -38,6 +38,7 @@ Hoorah!  Bit of a nuisance in Python 2, something to look out for.  General math
     x/y 
     x**5  # x to the power of 5.
     x += 1 # short hand for x = x + 1
+    x # shows new value of x.
     x%y  # this is modulus, x mod y returns the remainder after division of x by y.
 
 [Operator precedence](https://docs.python.org/2/reference/expressions.html#operator-precedence) is in the python docs in more detail.  In general if in doubt use parentheses, e.g.
@@ -61,6 +62,11 @@ Many functions return a boolean value i.e. True or False.  You can set variables
 
 ### Strings
 
+Notebook: strings.ipynb
+[Github]()
+
+A string is an ordered sequence of characters.
+
 Give the following a try
 
     s = 'My String'
@@ -72,6 +78,7 @@ Give the following a try
     String 
 
     """
+    print u
 The triple double quoted string means you can use quotes and double quotes in the string and also have a multiline string.
 
 Strings support a number of operations, try
@@ -86,7 +93,7 @@ Strings support a number of operations, try
     5 * s # strings support multiplication by integer.
     len(s) # returns length of the string.
     s.split(' ') # splits s at the space character.
-    s.replace('String', 'Thing') # replaces given characters.
+    s.replace('string', 'thing') # replaces given characters.
 
 If you're using the ipython prompt you can hit tab after the variable name with a dot and it will list all methods for that object.  Won't work in notebooks.
 
@@ -106,6 +113,14 @@ Check out this indexing image
 ![indexes pic](../images/indexes.png)
 
 This gives an idea how indexes work.  So take the zero as being the start before the first letter then think of the s[0:3] slice.  You can now see why you don't get the character s[3] in the slice as it starts at 0 and stops at the 3.  So for s[3] you start at 3 and go forward one character so you get the 4th character.  Don't be fooled by the reverse side s[-1] starts at -1 but again goes forward to get the last charcter not backward.
+
+###Basic String Formatting in Python 2
+
+    greeting = 'hello'
+    name = 'david'
+    print "%s world!  I'm %s" % (greeting, name) # The %s are replaced in order by the stuff in the parenthesis.
+
+You can do a lot more with print formats, see [here](https://docs.python.org/2/library/string.html) for more stuff.
 
 Finally...
 

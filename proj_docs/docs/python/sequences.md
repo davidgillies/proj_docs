@@ -1,3 +1,7 @@
+# Data Structures
+
+For full documentation visit [https://docs.python.org/2/tutorial/datastructures.html](https://docs.python.org/2/tutorial/datastructures.html).
+
 ## Sequences
 
 ### Lists
@@ -16,12 +20,15 @@ The same indexing rules for strings above apply to Python Lists.  A list is simp
     l[1] # will now be 10.
     l[1:3] # Using the same index rules as strings, what will this return?  
     l[-1] # the last item in the list.
+    l[:3] # from the start of the list to the 4th character.
+    l[3:] # from the 4th character to the end including the 4th.
     l.sort() # sorts the list in ascending order but returns nothing... so have a look
     l # should see the list reordered.
     l.pop() # returns the last item from the list and removes it from the list!
     l # check the item is removed.
     l.reverse() # returns nothing but will reorder the list in reverse of it's current state.
     l # check it worked
+    len(l) # returns the length of l.
     l = l + [1,1,1] # add 2 lists
     l.count(1) # count the number of times 1 is in the list.
 

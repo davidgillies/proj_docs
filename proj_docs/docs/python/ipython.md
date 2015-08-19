@@ -9,13 +9,11 @@ To start ipython at a a command prompt, type
 
  Lets interact with the shell, try:
 
-    ls
+    ls  # This should give a file listing of your system.
 
-This should give a file listing of your system.
+    pwd  # This will tell you your current directory.
 
-    pwd
-
-This will tell you your current directory.  Now choose a directory from your list and 
+Now choose a directory from your list and 
 
     cd <directory>
 
@@ -38,7 +36,13 @@ you will see the new folder listed.
 We will use the prompts for python in the following sections and you will see more commands in action.
 
 ## iPython Notebooks
-If you click on your Start Menu on Windows and select 'All Programs', click on the Anaconda folder, then click on IPython (Py 2.7) Notebook.  This will start a command prompt screen, just ignore it, then it will start a tab in your browser with a folder and file listing.  The choice of this location is noted in the properties of the shortcut.  You can instead right click on the IPython (Py 2.7) Notebook shortcut in the menu and select properties, you can then change this location if you wish by editing the 'Start in' line.
+If you click on your Start Menu on Windows and select 'All Programs', click on the Anaconda folder, then click on IPython (Py 2.7) Notebook.  This will start a command prompt screen, just ignore it, then it will start a tab in your browser with a folder and file listing.  
+
+The choice of this location is noted in the properties of the shortcut.  You can instead right click on the IPython (Py 2.7) Notebook shortcut in the menu and select properties, you can then change this location if you wish by editing the 'Start in' line.
+
+You can download the notebooks for the documentation to your directory from **[here](https://github.com/davidgillies/python_notebooks)**.  Click 'Download ZIP' button to get the lot and extract them to the folder inside the target folder iPython ntoebooks is using.  That will make it easy for you to navigate to them in the notebooks interface.  
+
+These notebooks will cover the documentation content where appropriate.  
 
 Screenshot?
 
@@ -56,7 +60,7 @@ You can retype over the previous commands in this interface and run them again b
 
 You may notice that each time you run a command, the number on the left is incremented by one.  This is because ipython stores a history of all your work, try
 
-    history # remember your shift button!
+    history # remember your shift key!
 
 This should list all the commands you've run so far.
 
