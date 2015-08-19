@@ -51,6 +51,10 @@ Now lets have a look at equality and identity
     l1 is l2 # 'is' tells us if the objects are actually the same.
     l1 is l3 # should be false! 
 
+Finally, list can hold any objects...
+
+    l4 = ['hello', 1, ['another list', 4]]
+
 
 Note: you need to login with Raven to view Videos.
 
