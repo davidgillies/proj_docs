@@ -6,6 +6,7 @@ pages:
     - IPython: python/ipython.md # command prompt
     - Strings and Numbers: python/basics.md # usual stuff
     - Sequences: python/sequences.md # sequences.
+    - Loops: python/loops.md # loops and control structures
     - Functions: python/basics2.md # functions etc. namespaces
     # where is modules andd namespaces.
     - Modules: python/modules.md
