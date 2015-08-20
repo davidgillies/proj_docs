@@ -1,4 +1,5 @@
 # Loops and Control Structures
+You can try out the commands at the ipython prompt or see the ipython notebook, lists.ipynb or see the results at the [github page](https://github.com/davidgillies/python_notebooks/blob/master/loops.ipynb).
 
 ## If
 The basic syntax of the if statetment looks like:
@@ -115,7 +116,7 @@ For cases where you don't want to do anything when looping, you use *continue* a
             print 'done'
             break # loop will stop
 
-Common practise to loop over a set number of iterations.  For this we can use range() which creates a list of numbers...
+It is a common thing to loop over a set number of iterations.  For this we can use range() which creates a list of numbers...
 
     list_of_nums = range(10)
     list_of_nums # output list
