@@ -19,7 +19,7 @@ Functions can either return a value directly or they can fulfill some process an
 
 Note the usual indentation after the colon.  Docstrings are for documentation.  Python treats a string immediately after the function definition line specially and it will be available under the \_\_doc\_\_ property of the function.  So
 
-    myfunc.\_\_doc\_\_ # will return the docstring.
+    myfunc.__doc__ # will return the docstring.
 
 Many objects have docstrings...
 
@@ -88,9 +88,3 @@ Functions can return multiple values which can easily be unpacked into variables
 This is because a tuple has been returned but this works with any iterable so
 
     a, b, c = [1, 2, 3] # test the values of a, b and c.
-
-
-
-
-
-
