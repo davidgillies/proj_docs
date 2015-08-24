@@ -1,4 +1,5 @@
 # Functions
+You can try out the commands at the ipython prompt or see the ipython notebook, functions.ipynb or see the results at the [github page](https://github.com/davidgillies/python_notebooks/blob/master/functions.ipynb).
 
 A function in python looks like this
 
@@ -72,7 +73,7 @@ These can be used together but must be in order with keywords last
             print key, value
         print normal_arg
 
-    all_args('done', 1,2,3,keyword='keyword', again='another')
+    all_args('done', 1,2,3, keyword='keyword', again='another')
 
 ###Multiple return values
 Functions can return multiple values which can easily be unpacked into variables..

@@ -8,8 +8,7 @@ pages:
     - Sequences: python/sequences.md # sequences.
     - Loops: python/loops.md # loops and control structures
     - Functions: python/basics2.md # functions etc. namespaces
-    # where is modules andd namespaces.
-    - Modules: python/modules.md
+    - Modules and Packages: python/modules.md
     - Objects and Classes: python/classes.md 
     - Files: python/basics3.md # files, csv, pdf, etc.
     - Installing Packages: python/pip.md # using pip
