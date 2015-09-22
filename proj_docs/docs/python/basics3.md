@@ -1,17 +1,33 @@
-# Welcome to MkDocs
+#Working with Files
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+Files are easy to use in Python.
 
-## Commands
+    f = open('some.log') # opens file returns file object
+    text = f.read() # puts all the text into a variable
+    f = open('some.log') # 
+    lines = f.readlines() # reads lines into a list
+    for line in lines:  
+        if 'Apache' in line:
+            print line
+    f.close() # close file
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+Opening in the write mode with 'w' means any time you use the write() method you will overwrite the any existing content in the file. 
 
-## Project layout
+    f = open('stuff.txt')
+    f.read()
+    f.close()
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    f = open('stuff.txt', 'w') # will overwrite everything
+    f.write('All gone!')
+    f.close()
+    print open('stuff.txt').read()
+
+    f =  open('stuff.txt', 'a') # will append to the file  
+    f.write('Add this!')
+    f.close()
+    print open('stuff.txt').read()
+
+When things go wrong when using files and you get errors, the writing side of things can go wrong.  Using the **with** command ensures the file will be properly closed.
+
+    with open('some.log') as f:
+        f.write('') # 

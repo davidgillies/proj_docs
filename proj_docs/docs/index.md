@@ -7,3 +7,7 @@ Docs have white boxes that denote code that can be run either at prompts or as s
 Most of the code will be covered in ipython notebooks which can be downloaded or cloned from Git to save you typing!  It will be explained how to do this.
 
 Comments and Structures!
+
+##Todos
+Add try, except blocks.
+
